@@ -1,0 +1,68 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    flex: 1; 
+    
+}
+.sidebar,
+.content{
+
+    flex: 1;
+}
+
+.header{
+    height: 70px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-shrink: 0; /* Prevent the header from shrinking */
+    flex-grow: 0; /* Prevent the header from growing */
+    flex-basis: 70px; /* Set the initial height of the header */
+   
+}
+.footer{
+    height: 80px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 1px;
+}
+.h1{
+    text-align: center; 
+}
+.table{
+  font-size: larger;
+  margin-top: 5px;
+}
+.getbutton{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.form {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 2px; 
+   
+}

@@ -1,0 +1,47 @@
+.login{
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 20px;  
+}
+.login, label{
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: large;
+  }
+  /* //main llgin screen css */
+.bgApp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: url('../features/backRo.jpg');
+  background-size: cover;
+}
+.loginform{
+  background-color: rgba(255, 255, 255, 0.33);
+  box-shadow: rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  padding: 0 16px 16px 16px;
+  border-radius: 10px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}

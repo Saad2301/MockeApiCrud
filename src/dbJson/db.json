@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "name" : "M_Saad",
+        "email": "saad@gmail.com",
+        "password": "123",
+        "stack"  :"Front_End",
+        "Pic" : "backRo.jpg"
+      },
+      {
+        "name" : "Ali",
+        "email": "ali@gmail.com",
+        "password": "456",
+        "stack"  :"F.E"
+      }
+      
+    ]
+  }
+  
